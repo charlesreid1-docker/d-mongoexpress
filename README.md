@@ -3,10 +3,12 @@
 This repo contains scripts for building and running the Mongo Express web app
 for administering MongoDB database.
 
-## running mongo express
+## Running mongo express
 
 The `run_stock.sh` script is the only script. It runs a stock mongo-express container
 from Docker's official images.
+
+## Instructions 
 
 To run and install:
 
@@ -23,7 +25,7 @@ is ink to mongo-express image on Docker store.
 
 Delete database functionality does not seem to work.
 
-## linking mongo and mongo express
+## Linking mongo and mongo express
 
 If you are using the d-mongodb repo from git.charlesreid1.com,
 you can link the two containers and give Mongo Express admin access
